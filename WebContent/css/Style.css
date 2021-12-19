@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Black+Han+Sans&subset=korean);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+.box {
+	float: left;
+	margin: 12px;
+	border-radius: 10%;
+	font-size: 14px;
+	text-align: justify;
+	background: rgba(180, 180, 180, 0);
+}
+
+.box:HOVER {
+	border: 2px solid white;
+	margin: 10px;
+}
+.box-underimage{
+	margin: 3px;
+	font-family: 'Nanum Gothic', sans-serif;
+	color: #eeeeee;
+}
+
+.box-itemname{
+	padding-top: 5px;
+	text-align: left;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.box-itemprice{
+	text-align: right;
+	padding-bottom: 10px;
+}
+ 
+ #listForm{
+		width:700px;
+		height:500px;
+		border:1px solid red;
+		margin:auto;
+	}
+	.n{
+		color: #ccccdd;
+	}
+	
+	table{
+		margin:auto;
+		width:550px;
+	}
+
+	.div_empty{
+		background-color:red;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+	}
+
+	#todayImageList{
+		text-align: center;
+	}
+	#productImage{
+		width: 150px;
+		height: 150px;
+		border: none;
+		border-radius: 10%;
+	}
+	#todayImage{
+		width: 100px;
+		height: 100px;
+		border: none;
+	}
+
